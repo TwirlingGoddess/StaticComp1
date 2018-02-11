@@ -1,0 +1,98 @@
+@import "reset.css";
+
+* {
+box-sizing: border-box;
+}
+
+body {
+  height: 100%
+  width: 100%;
+  font-size: xx-large;
+}
+
+p
+
+.section1 {
+  float: left;
+  display: block;
+  height: 100%;
+  width: 650px;
+  background-color: yellow;
+}
+
+.article0 {
+  display: inline-block;
+  background-color: white;
+  height: 13rem;
+  width: 13rem;
+}
+
+.article1 {
+  display: inline-block;
+  background-color: black;
+  height: 13rem;
+  width: 13rem;
+}
+
+.article2 {
+  display: inline-block;
+  background-color: blue;
+  height: 13rem;
+  width: 13rem;
+}
+
+.article3 {
+  display: inline-block;
+  background-color: red;
+  height: 13rem;
+  width: 13rem;
+}
+
+.article4 {
+  display: inline-block;
+  background-color: green;
+  height: 13rem;
+  width: 13rem;
+}
+
+.article5 {
+  display: inline-block;
+  background-color: yellow;
+  height: 13rem;
+  width: 13rem;
+}
+
+.article6 {
+  display: inline-block;
+  background-color: grey;
+  height: 13rem;
+  width: 13rem;
+}
+
+.article7 {
+  display: inline-block;
+  background-color: purple;
+  height: 13rem;
+  width: 13rem;
+}
+
+.article8 {
+  display: inline-block;
+  background-color: pink;
+  height: 13rem;
+  width: 13rem;
+
+}
+
+.setion2 {
+background-color: pink;
+  display: block;
+  float: right;
+  height: 100%;
+  width: 500px;
+}
+
+img {
+height: 100%;
+width: 30%;
+}
