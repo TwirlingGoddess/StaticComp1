@@ -5,94 +5,130 @@ box-sizing: border-box;
 }
 
 body {
-  height: 100%
-  width: 100%;
-  font-size: xx-large;
+  display: inline;
 }
 
-p
+h1 {
+  color: purple;
+  height: 2rem;
+  width: 38rem;
+  float: left;
+  margin: 2rem 1rem .5rem 1rem;
+  font-size: xx-large;
+  font-weight: 600;
+  text-align: left;
+  text-decoration-style: solid;
+}
+
+p {
+  font-size:small;
+  color:magenta;
+  width: 37rem;
+  text-align: left;
+  display: block; 
+  margin: 1rem;
+}
+
+button {
+  text-align: center;
+  border: .1rem solid magenta;
+  background-color: powderblue;
+  color: magenta;
+  height: 3rem;
+  width: 8rem;
+  float: left;
+  margin: 0 0 0 1rem;
+  display: inline-block;
+  font-size: .8rem;
+}
+
+.buttons {
+  height: 1rem;
+  width: 1rem;
+}
 
 .section1 {
-  float: left;
-  display: block;
-  height: 100%;
-  width: 650px;
-  background-color: yellow;
+  display: flex;
+  height: 100vh;
+  width: 66.6%;
+  margin: 0;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+article {
+  text-align: center;
+  padding: auto;
 }
 
 .article0 {
   display: inline-block;
-  background-color: white;
-  height: 13rem;
-  width: 13rem;
+  background-color: powderblue;
+  height: 33.3%;
+  width: 66.6%;
 }
 
 .article1 {
   display: inline-block;
-  background-color: black;
-  height: 13rem;
-  width: 13rem;
+  background-color: #e6e6fa;
+  height: 33.3%;
+  width: 33.3%;
 }
 
 .article2 {
   display: inline-block;
-  background-color: blue;
-  height: 13rem;
-  width: 13rem;
+  background-color: #ffe4e1;
+  height: 33.3%;
+  width: 33.3%;
 }
 
 .article3 {
   display: inline-block;
-  background-color: red;
-  height: 13rem;
-  width: 13rem;
+  background-color: #ffff99;
+  height: 33.3%;
+  width: 33.3%;
 }
 
 .article4 {
   display: inline-block;
-  background-color: green;
-  height: 13rem;
-  width: 13rem;
+  background-color: #66ffcc;
+  height: 33.3%;
+  width: 33.3%;
 }
 
 .article5 {
   display: inline-block;
-  background-color: yellow;
-  height: 13rem;
-  width: 13rem;
+  background-color: #ccccff;
+  height: 33.3%;
+  width: 33.3%;
 }
 
 .article6 {
   display: inline-block;
-  background-color: grey;
-  height: 13rem;
-  width: 13rem;
+  background-color: #ffcc99;
+  height: 33.3%;
+  width: 33.3%;
 }
 
 .article7 {
   display: inline-block;
-  background-color: purple;
-  height: 13rem;
-  width: 13rem;
+  background-color: #cc99ff;
+  height: 33.3%;
+  width: 33.3%;
 }
 
-.article8 {
-  display: inline-block;
-  background-color: pink;
-  height: 13rem;
-  width: 13rem;
-
-}
-
-.setion2 {
-background-color: pink;
-  display: block;
-  float: right;
+.queens {
   height: 100%;
-  width: 500px;
+  width: 100%;
+  opacity: 0.65;
+  border-radius: 70px;
+}
+
+.section2 {
+  z-index: -5;
+  padding: 0;
 }
 
 img {
-height: 100%;
-width: 30%;
+
 }
