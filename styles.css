@@ -6,6 +6,7 @@ box-sizing: border-box;
 
 body {
   display: inline;
+  font-family: 'Slabo 27px', serif;
 }
 
 h1 {
@@ -13,7 +14,7 @@ h1 {
   height: 2rem;
   width: 38rem;
   float: left;
-  margin: 2rem 1rem .5rem 1rem;
+  margin: 2.5rem 1rem 1.5rem 1rem;
   font-size: xx-large;
   font-weight: 600;
   text-align: left;
@@ -23,10 +24,10 @@ h1 {
 p {
   font-size:small;
   color:magenta;
-  width: 37rem;
+  width: 96%;
   text-align: left;
   display: block; 
-  margin: 1rem;
+  margin: 0 0 0 1rem;
 }
 
 button {
@@ -37,9 +38,10 @@ button {
   height: 3rem;
   width: 8rem;
   float: left;
-  margin: 0 0 0 1rem;
+  margin: .6rem 0 0 1rem;
   display: inline-block;
   font-size: .8rem;
+  font-family: 'Slabo 27px', serif;
 }
 
 .buttons {
@@ -51,14 +53,13 @@ button {
   display: flex;
   height: 100vh;
   width: 66.6%;
-  margin: 0;
+  margin: 0px 0px 0px 0px;
   flex-wrap: wrap;
   justify-content: flex-start;
 }
 
 article {
   text-align: center;
-  padding: auto;
 }
 
 .article0 {
@@ -124,11 +125,58 @@ article {
   border-radius: 70px;
 }
 
-.section2 {
-  z-index: -5;
-  padding: 0;
+.icons {
+  width: 250px;
+  z-index: 30;
 }
 
-img {
+.section2 {
+  z-index: -5;
+  width: 255px;
+  text-align: center;
+  justify-content: center;
+}
 
+.rupaul {
+  padding-left: 7rem;
+  height: 100%;
+}
+
+
+/*-------------------------------*/
+
+@media (min-width: 1020px),
+screen and (orientation: portrait) {
+
+  body {
+    float: top;
+    display: flex;
+    height: 100vh;
+  }
+
+  article {
+    width: 50%;
+  }
+
+  .article0 {
+    width: 100%
+    justify-content: center;
+  }
+
+  h1 {
+    width: 100%;
+  }
+
+  p {
+    justify-content: center;
+  }
+
+  button {
+    margin-bottom: 1rem;
+  }
+
+  .rupaul {
+    display: block;
+    object-position: bottom;
+  }
 }
