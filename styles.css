@@ -9,12 +9,17 @@ body {
   font-family: 'Slabo 27px', serif;
 }
 
+.wrapper {
+  display: flex;
+}
+
 h1 {
-  color: purple;
+  color: magenta;
   height: 2rem;
-  width: 38rem;
+  width: 100%;
   float: left;
   margin: 2.5rem 1rem 1.5rem 1rem;
+  padding-right: 25%;
   font-size: xx-large;
   font-weight: 600;
   text-align: left;
@@ -24,13 +29,15 @@ h1 {
 p {
   font-size:small;
   color:magenta;
-  width: 96%;
+  width: 100%;
   text-align: left;
+  font-size: large;
   display: block; 
-  margin: 0 0 0 1rem;
+  margin: 0 1rem 0 1rem;
 }
 
 button {
+  position: relative;
   text-align: center;
   border: .1rem solid magenta;
   background-color: powderblue;
@@ -38,10 +45,11 @@ button {
   height: 3rem;
   width: 8rem;
   float: left;
-  margin: .6rem 0 0 1rem;
+  margin: 1rem 0 0 1rem;
   display: inline-block;
-  font-size: .8rem;
+  font-size: 1rem;
   font-family: 'Slabo 27px', serif;
+  border-radius: 70px;
 }
 
 .buttons {
@@ -52,28 +60,42 @@ button {
 .section1 {
   display: flex;
   height: 100vh;
-  width: 66.6%;
-  margin: 0px 0px 0px 0px;
+  width: 73%;
+  margin: 0;
   flex-wrap: wrap;
   justify-content: flex-start;
 }
 
-article {
-  text-align: center;
+div {
+  display: inline-flex;
+  margin: 0;
+  text-align: left;
+  color: magenta;
 }
 
 .article0 {
+  position: relative;
   display: inline-block;
   background-color: powderblue;
   height: 33.3%;
   width: 66.6%;
 }
 
-.article1 {
+.article7 {
   display: inline-block;
   background-color: #e6e6fa;
+  opacity: 50%;
   height: 33.3%;
   width: 33.3%;
+}
+
+.queen1 {
+  background-image: url("detox.jpg");
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+  opacity: 0.95;
+  border-radius: 70px;
 }
 
 .article2 {
@@ -83,18 +105,45 @@ article {
   width: 33.3%;
 }
 
-.article3 {
+.queen2 {
+  background-image: url("violet.jpg");
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+  opacity: 0.95;
+  border-radius: 70px;
+}
+
+.article4 {
   display: inline-block;
   background-color: #ffff99;
   height: 33.3%;
   width: 33.3%;
 }
 
-.article4 {
+.queen4 {  
+  background-image: url("chad.jpg");
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+  opacity: 0.95;
+  border-radius: 70px;
+}
+
+.article1 {
   display: inline-block;
   background-color: #66ffcc;
   height: 33.3%;
   width: 33.3%;
+}
+
+.queen7 { 
+  background-image: url("raja.png");
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+  opacity: 0.95;
+  border-radius: 70px;
 }
 
 .article5 {
@@ -104,6 +153,15 @@ article {
   width: 33.3%;
 }
 
+.queen5 {
+  background-image: url("sasha.jpg");
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+  opacity: 0.95;
+  border-radius: 70px;
+}
+
 .article6 {
   display: inline-block;
   background-color: #ffcc99;
@@ -111,49 +169,93 @@ article {
   width: 33.3%;
 }
 
-.article7 {
+.queen6 {
+  background-image: url("kimchi.jpg");
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+  opacity: 0.95;
+  border-radius: 70px;
+}
+
+.article3 {
   display: inline-block;
   background-color: #cc99ff;
   height: 33.3%;
   width: 33.3%;
 }
 
-.queens {
-  height: 100%;
+.queen3 {
+  background-image: url("acid-betty.jpg");
+  background-size: 100% 100%;
   width: 100%;
-  opacity: 0.65;
+  height: 100%;
+  opacity: 0.95;
   border-radius: 70px;
 }
 
-.icons {
-  width: 250px;
-  z-index: 30;
+.queenBtn {
+  margin: 11rem 4rem 0 0;
+  background: transparent;
+  font-size: large;
+  text-decoration: overline;
+  text-decoration-color: purple;
+  border: none;
+  width: 6rem;
+  height: 6rem;
+  color: magenta;
+
+}
+
+.iconQueens {
+  position: relative;
+  width: 3rem;
+  height: 3rem;
 }
 
 .section2 {
-  z-index: -5;
-  width: 255px;
-  text-align: center;
+  display: inline;
+  margin: 0;
+  width: 16.9%;
   justify-content: center;
 }
 
+.scroll {
+  position: absolute;
+  height: .5rem;
+  width: 2rem;
+  object-position: top;
+  z-index: 50;
+}
+
 .rupaul {
-  padding-left: 7rem;
+  margin: 0 0 0 4rem;
   height: 100%;
+  z-index: -100;
+  object-position: center;
 }
 
 
 /*-------------------------------*/
 
-@media (min-width: 1020px),
-screen and (orientation: portrait) {
+@media screen
+  and (min-width: 500px)
+  and (max-width: 900px) {
 
   body {
     float: top;
-    display: flex;
+    display: inline-block;
     height: 100vh;
   }
 
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .section1 {
+    width: 100%
+  }
+ 
   article {
     width: 50%;
   }
@@ -176,6 +278,52 @@ screen and (orientation: portrait) {
   }
 
   .rupaul {
+    display: block;
+    object-position: bottom;
+  }
+}
+
+/*-------------------------------*/
+
+@media screen
+  and (min-width: 75px)
+  and (max-width: 499px) {
+
+  body {
+    float: top;
+    display: inline-block;
+    height: 100vh;
+  }
+
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .article0 {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .article1 .article2 .article3 .article4 .article5 .article6 .article7 {
+    width:50%;
+  }
+
+  h1 {
+    width: 100%;
+  }
+
+  p {
+    width: 100%
+    justify-content: center;
+  }
+
+  button {
+    width: 50%;
+    margin-bottom: 1rem;
+  }
+
+  .rupaul {
+    width: 100%;
     display: block;
     object-position: bottom;
   }
