@@ -8,7 +8,7 @@ Here is the original comp:
 
 Here is my version:
 
-![alt text](Screen Shot 2018-02-13 at 3.21.05 PM)
+![alt text](file:///Users/butchqueenindrags/turing/mod1/projects/StaticComp1/index.html)
 
 I decided to do my version on RuPaul's Drag Race, featuring the portraits of some of my favorite contestants from the show.
 
