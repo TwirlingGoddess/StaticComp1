@@ -8,7 +8,7 @@ Here is the original comp:
 
 Here is my version:
 
-![alt text](recents/Screen Shot 2018-03-27 at 1.32.21 PM.png)
+![alt text](https://github.com/TwirlingGoddess/lg-comp-challenge-1/blob/master/Screen%20Shot%202018-03-27%20at%201.32.21%20PM.png)
 
 I decided to do my version on RuPaul's Drag Race, featuring the portraits of some of my favorite contestants from the show.
 
