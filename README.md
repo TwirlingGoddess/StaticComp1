@@ -11,7 +11,7 @@ Here is my version:
 ![alt text](https://github.com/TwirlingGoddess/lg-comp-challenge-1/blob/master/Screen%20Shot%202018-03-27%20at%201.32.21%20PM.png)
 
 I decided to do my version on RuPaul's Drag Race, featuring the portraits of some of my favorite contestants from the show.
-(I absolutely
+(I absolutely LOVE
 The full overview of the assignment is here for your perusal.
 
 ### Static Comp Challenge 1
