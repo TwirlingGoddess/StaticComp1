@@ -22,7 +22,7 @@ The static comp challenge is a series of three challenges to keep you working th
 We have not provided you with any assets, nor native files. You will have to source assets on your own per the creative license guidelines below.
 We have not provided breakpoint specific comps. You will need to employ some creativity here with a heavy dose of good judgment. Think about how you, as a user, could best experience the content/layout across various screen sizes. Is the content legible? Does the imagery (especially full bleed background images) still make sense and look good? Do portions of the nav become icons (and are they intuitive?), or a menu?
 
-#Creative License
+#### Creative License
 You may NOT take liberties with the layout, but your creative license includes:
   Copy
   Images
