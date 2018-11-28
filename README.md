@@ -12,7 +12,7 @@ Here is my version:
 
 I decided to do my version on RuPaul's Drag Race, featuring the portraits of some of my favorite contestants from the show.
 
-(I absolutely LOVE the artistic expression of drag and)
+(I absolutely LOVE the artistic expression of drag and the)
 
 The full overview of the assignment is here for your perusal.
 
